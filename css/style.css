@@ -1,0 +1,43 @@
+:root {
+    --brand-color: #0ea5e9;  /* sky blue */
+    /* or try: #8b5cf6 (purple), #06b6d4 (cyan), #f43f5e (rose) */
+}
+
+/* Apply it everywhere */
+.badge-pill-custom,
+.navbar-custom .navbar-brand span,
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active,
+.hero h1 .highlight,
+.hero .hero-image-wrapper .floating-card i,
+.service-card .icon-box,
+.service-card:hover .icon-box,
+.about .about-list li i,
+.footer .footer-brand span,
+.footer .social-links a:hover {
+    color: var(--brand-color);
+}
+
+.btn-primary-custom,
+.service-card:hover .icon-box,
+.footer .social-links a:hover {
+    background: var(--brand-color);
+    box-shadow: 0 8px 28px -6px rgba(14, 165, 233, 0.35);
+}
+
+.btn-primary-custom:hover {
+    background: #0284c7; /* darker shade of your new color */
+}
+
+.btn-outline-custom:hover {
+    border-color: var(--brand-color);
+    color: var(--brand-color);
+}
+
+.badge-pill-custom {
+    background: rgba(14, 165, 233, 0.10);
+}
+
+.service-card:hover {
+    border-color: rgba(14, 165, 233, 0.15);
+}
